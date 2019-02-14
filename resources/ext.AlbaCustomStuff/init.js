@@ -1,10 +1,10 @@
 ( function () {
 
 	/**
-	 * @class mw.boilerPlate
+	 * @class mw.AlbaCustomStuff
 	 * @singleton
 	 */
-	mw.boilerPlate = {
+	mw.AlbaCustomStuff = {
 	};
 
 }() );

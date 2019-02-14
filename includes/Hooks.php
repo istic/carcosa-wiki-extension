@@ -17,17 +17,17 @@
  * @file
  */
 
-namespace MediaWiki\Extension\BoilerPlate;
+namespace MediaWiki\Extension\AlbaCustomStuff;
 
 class Hooks {
 
 	/**
-	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/Something
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/BeforePageDisplay
 	 * @param string $arg1 First argument
 	 * @param array $arg2
 	 */
-	public static function onSomething( $arg1, array $arg2 ) {
-		// Stub
+	public static function onBeforePageDisplay( \OutputPage &$out, \Skin &$skin ) {
+		$out->addStyle( "https://use.typekit.net/vcd3usu.css" );
 	}
 
 }

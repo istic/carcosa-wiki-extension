@@ -1,42 +1,44 @@
 {
-	"name": "BoilerPlate",
+	"name": "AlbaCustomStuff",
 	"author": [
 		"Your Name"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:BoilerPlate",
-	"descriptionmsg": "boilerplate-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:AlbaCustomStuff",
+	"descriptionmsg": "AlbaCustomStuff-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.32.0"
+		"MediaWiki": ">= 1.30.0"
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\AlbaCustomStuff\\Hooks": "includes/Hooks.php"
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\BoilerPlate\\": "includes/"
+		"MediaWiki\\Extension\\AlbaCustomStuff\\": "includes/"
 	},
 	"config": {
-		"BoilerPlateEnableFoo": {
+		"AlbaCustomStuffEnableFoo": {
 			"description": "Enable the Foo feature.",
 			"value": true
 		}
 	},
 	"Hooks": {
-		"Something": "MediaWiki\\Extension\\BoilerPlate\\Hooks::onSomething"
+		"BeforePageDisplay": "MediaWiki\\Extension\\AlbaCustomStuff\\Hooks::onBeforePageDisplay"
 	},
 	"MessagesDirs": {
-		"BoilerPlate": [
+		"AlbaCustomStuff": [
 			"i18n"
 		]
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
-		"remoteExtPath": "BoilerPlate/resources"
+		"remoteExtPath": "AlbaCustomStuff/resources"
 	},
-	"ResourceModules": {
-		"ext.boilerPlate": {
-			"dependencies": [],
-			"messages": [],
-			"styles": [],
-			"scripts": []
+  	"ResourceModules": {
+		"x.AlbaCustomStuff.styles": {
+			"styles": [
+				"x.custom.css"
+			]
 		}
 	},
 	"manifest_version": 2

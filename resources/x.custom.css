@@ -1,0 +1,36 @@
+
+body {
+	background-color: auto;
+}
+
+.navbar-default {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b0dd96+0,6fc655+100 */
+background: rgb(176,221,150); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(176,221,150,1) 0%, rgba(111,198,85,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(176,221,150,1) 0%,rgba(111,198,85,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(176,221,150,1) 0%,rgba(111,198,85,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0dd96', endColorstr='#6fc655',GradientType=0 ); /* IE6-9 */
+}
+
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	text-shadow: none;
+}
+
+
+.navbar-default .navbar-brand {
+ 	color: white;
+ 	font-family: rieven-uncial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+ 	font-family: rieven-uncial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+ }
+
+ #catlinks {display:block;}
