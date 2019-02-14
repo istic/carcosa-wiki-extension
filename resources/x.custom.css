@@ -34,3 +34,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0dd96', end
  }
 
  #catlinks {display:block;}
+
+ #catlinks:empty {
+  display:none;
+}
+
+
+.alba-jumbotron {
+    background-repeat: no-repeat; 
+    background-size: cover;
+	background-position:  center;;
+	color: #EEE;
+	text-shadow: 2px 2px 5px #000;
+}
+
+.gods-background {
+	background-image: url('https://www.carcosadreams.co.uk/wp-content/uploads/2019/01/LascauxCavePainting.jpg')
+}
+
+.spirits-background {
+	background-image: url('https://www.carcosadreams.co.uk/wp-content/uploads/2019/02/Elk.jpg');
+}
+
+.alba-background {
+	background-image: url('https://www.carcosadreams.co.uk/wp-content/uploads/2019/01/robert-lukeman-128794-unsplash.jpg');
+}
