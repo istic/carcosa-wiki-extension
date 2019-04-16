@@ -49,13 +49,61 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0dd96', end
 }
 
 .gods-background {
-	background-image: url('https://www.carcosadreams.co.uk/wp-content/uploads/2019/01/LascauxCavePainting.jpg')
+	background-image: url('https://www.carcosadreams.com/wp-content/uploads/2019/01/LascauxCavePainting.jpg')
 }
 
 .spirits-background {
-	background-image: url('https://www.carcosadreams.co.uk/wp-content/uploads/2019/02/Elk.jpg');
+	background-image: url('//art.istic.net/alba-assets/mist-elk.jpg');
 }
 
 .alba-background {
-	background-image: url('https://www.carcosadreams.co.uk/wp-content/uploads/2019/01/robert-lukeman-128794-unsplash.jpg');
+	background-image: url('//art.istic.net/alba-assets/spiral-sunrise.jpg');
 }
+
+.duncarron-background {
+	background-image: url('https://www.carcosadreams.com/wp-content/uploads/2019/01/image.png');
+}
+
+.oldcountry-background {
+	background-image: url('https://www.carcosadreams.com/wp-content/uploads/2019/02/Nant-y-Arian-view-1024x768.jpg');
+}
+
+
+.combat-background {
+	background-image: url('//art.istic.net/alba-assets/fox-fight.jpg');
+}
+
+
+.glitter-background {
+	background-image: url('//art.istic.net/alba-assets/glitter.jpg');
+}
+
+
+.keepers-background {
+	background-image: url('//art.istic.net/alba-assets/keepers.jpg');
+}
+
+
+.hills-background {
+	background-image: url('//art.istic.net/alba-assets/rolling-hills.jpg');
+}
+
+
+.safety-background {
+	background-image: url('//art.istic.net/alba-assets/safety.jpg');
+}
+
+
+.tickets-background {
+	background-image: url('//art.istic.net/alba-assets/tickets.jpg');
+}
+
+.wagon-background {
+	background-image: url('//art.istic.net/alba-assets/wagon.jpg');
+}
+
+.seagull-background {
+	background-image: url('//art.istic.net/alba-assets/seagull.jpg');
+}
+
+
