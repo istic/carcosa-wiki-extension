@@ -28,6 +28,25 @@ class Hooks {
 	 */
 	public static function onBeforePageDisplay( \OutputPage &$out, \Skin &$skin ) {
 		$out->addStyle( "https://use.typekit.net/vcd3usu.css" );
+		// $out is an instance of the OutputPage object.
+		// Add a meta tag
+		$out->addMeta( 'msapplication-TileColor', '#da532c' );
+		$out->addMeta( 'theme-color', '#ffffff' );
+
+		$wgHeadScriptCode = <<<EOF
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+EOF;
+
+		$out->addHeadItem('Alba', $wgHeadScriptCode );
+
+		// Required return value of a hook function.
+		return true;
 	}
 
 }
