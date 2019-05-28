@@ -37,7 +37,12 @@
   	"ResourceModules": {
 		"x.AlbaCustomStuff.styles": {
 			"styles": [
-				"x.custom.css"
+				"x.alba.css"
+			]
+		},
+		"x.SisyphusCustomStuff.styles": {
+			"styles": [
+				"x.sisyphus.css"
 			]
 		}
 	},
