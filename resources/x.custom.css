@@ -18,6 +18,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0dd96', end
 	text-shadow: none;
 }
 
+.sidebar-container.not-editable .btn-group {
+	display: none;
+}
 
 .navbar-default .navbar-brand {
  	color: white;
@@ -33,11 +36,62 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0dd96', end
 
  }
 
+.intro {
+ 	font-family: rieven-uncial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: x-large;
+	text-align: center;
+ }
+
+ .intro p {
+ 	padding-bottom: 1em;
+ }
+
  #catlinks {display:block;}
 
  #catlinks:empty {
   display:none;
 }
+
+
+#catlinks .alba-jumbotron {
+ 	font-family: rieven-uncial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+.nav-box {
+	border: 1px solid grey;
+	box-shadow: 2px 2px 5px #DDD;
+	border-radius: 20px 5px 20px 5px;
+	margin-top: 2em;
+}
+
+.nav-titlepic {
+    background-repeat: no-repeat; 
+    background-size: cover;
+	background-position:  center;;
+	color: #EEE;
+	text-shadow: 2px 2px 5px #000;
+
+ 	font-family: rieven-uncial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+	font-size: xx-large;
+
+	flex-grow: 2; 
+
+	padding: .25em;
+
+	border-radius: 20px 5px 0 0;
+	border-bottom: 1px solid black;
+
+
+}
+
 
 
 .alba-jumbotron {
@@ -46,6 +100,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0dd96', end
 	background-position:  center;;
 	color: #EEE;
 	text-shadow: 2px 2px 5px #000;
+}
+
+.nav-contenttable {
+	flex-grow:6;
+
+}
+.nav-contenttable td, th {
+	padding-left: .5em;
+}
+.nav-contenttable  th {
+	vertical-align: top;
 }
 
 .gods-background {
@@ -88,6 +153,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0dd96', end
 	background-image: url('//art.istic.net/alba-assets/rolling-hills.jpg');
 }
 
+img {
+	max-width: 100%;
+	width: auto !important; 
+}
 
 .safety-background {
 	background-image: url('//art.istic.net/alba-assets/safety.jpg');
