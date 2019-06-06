@@ -35,6 +35,11 @@
 		"remoteExtPath": "AlbaCustomStuff/resources"
 	},
   	"ResourceModules": {
+		"w.Global.styles": {
+			"styles": [
+				"x.globalstyles.css"
+			]
+		},
 		"x.AlbaCustomStuff.styles": {
 			"styles": [
 				"x.alba.css"
@@ -43,6 +48,21 @@
 		"x.SisyphusCustomStuff.styles": {
 			"styles": [
 				"x.sisyphus.css"
+			]
+		},
+		"x.ForsakenCustomStuff.styles": {
+			"styles": [
+				"x.forsaken.css"
+			]
+		},
+		"x.T67CustomStuff.styles": {
+			"styles": [
+				"x.t67.css"
+			]
+		},
+		"z.AlbaInternalCustomStuff.styles": {
+			"styles": [
+				"x.albainternal.css"
 			]
 		}
 	},

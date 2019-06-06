@@ -1,0 +1,88 @@
+
+body {
+	background-color: auto;
+}
+
+.navbar-default {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feccb1+0,f17432+50,ea5507+51,fb955e+100;Red+Gloss+%232 */
+background: #feccb1; /* Old browsers */
+background: -moz-linear-gradient(top,  #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
+}
+
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	text-shadow: none;
+}
+
+.sidebar-container.not-editable .btn-group {
+	display: none;
+}
+
+.navbar-default .navbar-brand {
+ 	color: white;
+	font-weight: 400;
+	font-style: normal;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	font-style: normal;
+
+ }
+
+.intro {
+	font-weight: 400;
+	font-style: normal;
+	font-size: x-large;
+	text-align: center;
+ }
+
+ .intro p {
+ 	padding-bottom: 1em;
+ }
+
+ #catlinks {display:block;}
+
+ #catlinks:empty {
+  display:none;
+}
+
+
+#catlinks .alba-jumbotron {
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+.nav-box {
+	border: 1px solid grey;
+	box-shadow: 2px 2px 5px #DDD;
+	border-radius: 20px 5px 20px 5px;
+	margin-top: 2em;
+}
+
+.nav-titlepic {
+    background-repeat: no-repeat; 
+    background-size: cover;
+	background-position:  center;;
+	color: #EEE;
+	text-shadow: 2px 2px 5px #000;
+
+	font-weight: 400;
+	font-style: normal;
+
+	font-size: xx-large;
+
+	flex-grow: 2; 
+
+	padding: .25em;
+
+	border-radius: 20px 5px 0 0;
+	border-bottom: 1px solid black;
+
+
+}
