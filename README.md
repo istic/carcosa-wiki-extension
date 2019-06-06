@@ -6,8 +6,8 @@ following commands to make a clean directory of just this template without the
 Git meta-data and other examples.
 
 	cd extensions
-	git clone https://gerrit.wikimedia.org/r/p/mediawiki/extensions/AlbaCustomStuff.git
-	cp -R AlbaCustomStuff ./MyExtension
+	git clone hhttps://github.com/istic/carcosa-wiki-extension.git
+	cp -R carcosa-wiki-extension ./CarcosaDreams
 
 This automates the recommended code checkers for PHP and JavaScript code in Wikimedia projects
 (see https://www.mediawiki.org/wiki/Continuous_integration/Entry_points).

@@ -3,36 +3,36 @@
 	"author": [
 		"Nicholas Avenell"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:AlbaCustomStuff",
-	"descriptionmsg": "AlbaCustomStuff-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:CarcosaDreams",
+	"descriptionmsg": "CarcosaDreams-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
 		"MediaWiki": ">= 1.30.0"
 	},
 	"AutoloadClasses": {
-		"MediaWiki\\Extension\\AlbaCustomStuff\\Hooks": "includes/Hooks.php"
+		"MediaWiki\\Extension\\CarcosaDreams\\Hooks": "includes/Hooks.php"
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\AlbaCustomStuff\\": "includes/"
+		"MediaWiki\\Extension\\CarcosaDreams\\": "includes/"
 	},
 	"config": {
-		"AlbaCustomStuffEnableFoo": {
+		"CarcosaDreamsEnableFoo": {
 			"description": "Enable the Foo feature.",
 			"value": true
 		}
 	},
 	"Hooks": {
-		"BeforePageDisplay": "MediaWiki\\Extension\\AlbaCustomStuff\\Hooks::onBeforePageDisplay"
+		"BeforePageDisplay": "MediaWiki\\Extension\\CarcosaDreams\\Hooks::onBeforePageDisplay"
 	},
 	"MessagesDirs": {
-		"AlbaCustomStuff": [
+		"CarcosaDreams": [
 			"i18n"
 		]
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
-		"remoteExtPath": "AlbaCustomStuff/resources"
+		"remoteExtPath": "CarcosaDreams/resources"
 	},
   	"ResourceModules": {
 		"w.Global.styles": {

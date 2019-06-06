@@ -17,7 +17,7 @@
  * @file
  */
 
-namespace MediaWiki\Extension\AlbaCustomStuff;
+namespace MediaWiki\Extension\CarcosaDreams;
 
 class Hooks {
 
