@@ -153,6 +153,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0dd96', end
 	background-image: url('//art.istic.net/alba-assets/rolling-hills.jpg');
 }
 
+.summerlands-background {
+	background-image: url('//art.istic.net/alba-assets/farmland.jpg');
+}
+
 img {
 	max-width: 100%;
 	width: auto !important; 
