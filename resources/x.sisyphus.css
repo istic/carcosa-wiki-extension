@@ -94,7 +94,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f167f', end
 
 
 
-.alba-jumbotron {
+.sisyphus-jumbotron {
     background-repeat: no-repeat; 
     background-size: cover;
 	background-position:  center;;
@@ -113,66 +113,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f167f', end
 	vertical-align: top;
 }
 
-.gods-background {
-	background-image: url('https://www.carcosadreams.com/wp-content/uploads/2019/01/LascauxCavePainting.jpg')
-}
-
-.spirits-background {
-	background-image: url('//art.istic.net/alba-assets/mist-elk.jpg');
-}
-
-.alba-background {
-	background-image: url('//art.istic.net/alba-assets/spiral-sunrise.jpg');
-}
-
-.duncarron-background {
-	background-image: url('https://www.carcosadreams.com/wp-content/uploads/2019/01/image.png');
-}
-
-.oldcountry-background {
-	background-image: url('https://www.carcosadreams.com/wp-content/uploads/2019/02/Nant-y-Arian-view-1024x768.jpg');
+.storm-background {
+	background-image: url('//art.istic.net/carcosa/sisyphus-assets/frantzou-fleurine-16979-unsplash.jpg@2000');
 }
 
 
-.combat-background {
-	background-image: url('//art.istic.net/alba-assets/fox-fight.jpg');
+.storm2-background {
+	background-image: url('//art.istic.net/carcosa/sisyphus-assets/derek-oyen-1431633-unsplash.jpg@2000');
 }
 
 
-.glitter-background {
-	background-image: url('//art.istic.net/alba-assets/glitter.jpg');
+.storm3-background {
+	background-image: url('//art.istic.net/carcosa/sisyphus-assets/robson-hatsukami-morgan-134756-unsplash.jpg@2000');
 }
 
-
-.keepers-background {
-	background-image: url('//art.istic.net/alba-assets/keepers.jpg');
-}
-
-
-.hills-background {
-	background-image: url('//art.istic.net/alba-assets/rolling-hills.jpg');
-}
 
 img {
 	max-width: 100%;
 	width: auto !important; 
 }
-
-.safety-background {
-	background-image: url('//art.istic.net/alba-assets/safety.jpg');
-}
-
-
-.tickets-background {
-	background-image: url('//art.istic.net/alba-assets/tickets.jpg');
-}
-
-.wagon-background {
-	background-image: url('//art.istic.net/alba-assets/wagon.jpg');
-}
-
-.seagull-background {
-	background-image: url('//art.istic.net/alba-assets/seagull.jpg');
-}
-
-
